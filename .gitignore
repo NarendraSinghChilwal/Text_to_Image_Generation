@@ -1,0 +1,12 @@
+*
+!.gitignore
+!README.md
+!notebooks/
+!notebooks/*.ipynb
+
+!data/
+!data/original_images/**
+!data/text_image_pairs.csv
+
+!outputs/
+!outputs/generated_images/**
