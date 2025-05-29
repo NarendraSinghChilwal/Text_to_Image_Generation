@@ -1,6 +1,6 @@
 # Text\_to\_Image\_Generation
 
-A comprehensive project that **web-scrapes** interior-design images from ArchDaily using Selenium, builds a prompt–image dataset, and leverages a Stable Diffusion model (via Hugging Face’s `diffusers` library) to generate new images from text prompts in a Jupyter notebook. (Note: datasets from Pixabay and Unsplash were handled by other team members.)
+A comprehensive project that **web-scrapes** interior-design images from ArchDaily using Selenium, builds a prompt–image dataset, and leverages a Stable Diffusion model (via Hugging Face’s `diffusers` library) to generate new images from text prompts in a Jupyter notebook.
 
 ---
 
@@ -107,10 +107,14 @@ All core dependencies are pinned in `requirements.txt`. Key libraries include:
 
 Below are two sample generated images based on **Prompt Clusters** :
 
+| Prompt Cluster                                                                                                       | Generated Image                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| *A serene forest-view living room with floor-to-ceiling glass walls, featuring a floating lounge chair and ambient lighting* | ![Generated](https://raw.githubusercontent.com/NarendraSinghChilwal/Text_to_Image_Generation/main/generated_9_1.png) |
+| *A minimalist reading nook with a fluffy white fur chair beside a tall black-framed window, soft natural light streaming in* | ![Generated](https://raw.githubusercontent.com/NarendraSinghChilwal/Text_to_Image_Generation/main/generated_9_3.png) |
 
-| Prompt Cluster                                                                                                               | Prompt Description                                                                                                                                   | Generated Image                                          |
-| ---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
-| *A serene forest-view living room with floor-to-ceiling glass walls, featuring a floating lounge chair and ambient lighting* | "A serene living room with floor-to-ceiling glass walls overlooking a dense forest, featuring a floating modern lounge chair with ambient lighting." | ![Generated](outputs/generated_images/generated_9_1.png) |
-| *Minimalist reading nook with a fluffy white fur chair beside a tall black-framed window, soft natural light streaming in*   | "A minimalist reading nook with a white fur accent chair beside a floor-to-ceiling black-framed window, soft daylight illuminating the space."       | ![Generated](outputs/generated_images/generated_9_3.png) |
 
-Below these, you can add similar entries for all your sample outputs to showcase the diversity of prompt-to-image mappings.
+## 📫 Contact
+
+For questions or collaboration, reach out to:
+
+Email: narensinghchilwal@gmail.com
